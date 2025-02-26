@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Coda';
+    src: url(../Coda/Coda-Regular.ttf);
+}
+:root {
+    --cor0: #0FC2C0;
+    --cor1: #0CABA8;
+    --cor2: #008F8C;
+    --cor3: #015958;
+    --cor4: #023535;
+
+    --main-font: 'Coda', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: var(--main-font);
+    background-color: var(--cor0);
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+nav .menu {
+    
+    background-color: var(--cor0);
+    display: flex;
+    border-radius: 0px 10px 10px 10px;
+    justify-content: center;
+    padding: 0;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.356);
+}
+
+nav .menu li {
+    color: var(--cor4);
+    padding: 0px 15px;
+    list-style: none;
+}
+
+nav .menu a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+ nav .menu a:hover {
+    color: var(--cor0);
+    background-color: var(--cor4);
+    padding: 5px;
+    border-radius: 10px;
+ }
+
+ .secao1 {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    border-bottom: 2px solid #fff;
+    height: 100vh;
+ }
+
+ .secao2 {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    border-bottom: 2px solid #fff;
+    height: 100vh;
+ }
+ 
+
+ .secao3 {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    border-bottom: 2px solid #fff;
+    height: 100vh;
+ }
+ 
+
+ .secao4 {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor3));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    border-bottom: 2px solid #fff;
+    height: 100vh;
+ }
+ 
+
+ footer > p {
+    text-align: center;
+    background-color: black;
+    color: white;
+ }
